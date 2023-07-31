@@ -1,4 +1,4 @@
-# ** PROJETO AGENDA 📝💻(CRUD) **
+# **PROJETO AGENDA 📝💻(CRUD)**
 
 Este projeto se trata de um site comm a funcionalidade de uma agenda. Criando e acessando sua conta, você pode inserir contatos, atualizá-los, ou excluí-los.
 
