@@ -4,7 +4,9 @@ const app =  express()
 
 // conexao mongoose
 const mongoose = require('mongoose')
-mongoose.connect(process.env.CONNECTIONSTRING)
+const port = process.env.CONNECTIONSTRING
+
+mongoose.connect(port)
     .then(() => {
         console.log('Conectado à Base de dados.\n')
         app.emit('pronto') // Emitir sinal que a base foi conectada
